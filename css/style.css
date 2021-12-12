@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #091921;
+    background: #c4d4db;
 }
 
 .clock {
@@ -33,7 +33,7 @@ body {
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #747474;
+    background: #444343;
     border-radius: 50%;
     z-index: 999;
 
@@ -63,7 +63,6 @@ body {
 .hr, .mn, .sc {
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     position: absolute;
     border-radius: 50%;
     
@@ -74,7 +73,7 @@ body {
     position: absolute;
     width: 8px;
     height: 80px;
-    background: #d11626;
+    background: #000;
     z-index: 9;
     border-radius: 6px 6px 0 0;
 }
@@ -84,7 +83,7 @@ body {
     position: absolute;
     width: 8px;
     height: 90px;
-    background: #d8cb19;
+    background: #000;
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
@@ -93,7 +92,7 @@ body {
     content: "";
     position: absolute;
     width: 2px;
-    height:150px;
+    height:135px;
     background: #e5e5e5;
     z-index: 11;
     border-radius: 6px 6px 0 0;
