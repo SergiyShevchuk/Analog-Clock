@@ -52,12 +52,12 @@ body {
 
 .clock .min, .mn {
     width: 190px;
-    height: 190px;
+    height: 255px;
 }
 
 .clock .sec, .sc {
     width: 230px;
-    height: 230px;
+    height: 285px;
 }
 
 .hr, .mn, .sc {
@@ -75,17 +75,17 @@ body {
     height: 80px;
     background: #000;
     z-index: 9;
-    border-radius: 6px 6px 0 0;
+    border-radius: 2px 2px 0 0;
 }
 
 .mn:before {
     content: "";
     position: absolute;
     width: 8px;
-    height: 90px;
+    height: 125px;
     background: #000;
     z-index: 10;
-    border-radius: 6px 6px 0 0;
+    border-radius: 2px 2px 0 0;
 }
 
 .sc:before {
@@ -95,5 +95,5 @@ body {
     height:135px;
     background: #e5e5e5;
     z-index: 11;
-    border-radius: 6px 6px 0 0;
+    border-radius: 2px 2px 0 0;
 }
